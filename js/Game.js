@@ -64,6 +64,10 @@ class Game{
             // the players on the screen
 
 
+                    textSize(25);
+                    fill("white");
+                    text("player 1 :"+allPlayers.player1.score,50,50);
+                    text("player 2 :"+allPlayers.player2.score,50,100);
 
         }
 
@@ -105,10 +109,6 @@ class Game{
                     player.score = player.score+1;
                     player.update(); 
 
-                    textSize(25);
-                    fill("white");
-                    text("player 1 :"+allPlayers.player1.score,50,50);
-                    text("player 2 :"+allPlayers.player2.score,50,100);
                  }   
                  textSize(25);
                  fill("white");
